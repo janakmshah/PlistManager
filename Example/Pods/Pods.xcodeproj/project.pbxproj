@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1F2F0D35D0703CB704128FA3E1DF73EA /* AnyEncodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA427AFAA67FC6FAA2A0748193FA0A90 /* AnyEncodable.swift */; };
-		2479569745087AA1D5D37DD35DDBA4D5 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C43FA0B4C700BA69EA2C1D867CD3C76 /* ReplaceMe.swift */; };
+		2479569745087AA1D5D37DD35DDBA4D5 /* PlistManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C43FA0B4C700BA69EA2C1D867CD3C76 /* PlistManager.swift */; };
 		285E9E769E118B8DA6A644681F4E74A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		2B9C4A393E735866852F9711E39D0513 /* AnyCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD66BA1AD16E93D6042EF4E04E25A6F /* AnyCodable.swift */; };
 		3D02909F19CDAF9D0C629B7850336077 /* Pods-PlistManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C025723E3EDD1E102954D2FBB1A20973 /* Pods-PlistManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -40,8 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00B6765C8FBDCB1F2C62A309ECCA029D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		0F27A6728B0FA7960A30282C5EBF2D9F /* PlistManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PlistManager.framework; path = PlistManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		00B6765C8FBDCB1F2C62A309ECCA029D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		0F27A6728B0FA7960A30282C5EBF2D9F /* PlistManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PlistManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		12D7ACE38D1FB47018E88A831101828E /* Pods-PlistManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PlistManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		12DCF64909EC507211A4B8E9D6A776CB /* AnyCodable-FlightSchool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AnyCodable-FlightSchool-prefix.pch"; sourceTree = "<group>"; };
 		17CB1FEC15B7B516BD5438D04AD6E6AF /* Pods-PlistManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PlistManager_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -54,13 +54,13 @@
 		5D0C3618A3CD679BAACC133CDCB4EA10 /* AnyCodable-FlightSchool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "AnyCodable-FlightSchool.debug.xcconfig"; sourceTree = "<group>"; };
 		6266D65556D055D99FB55D23C68A0E1C /* PlistManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PlistManager.debug.xcconfig; sourceTree = "<group>"; };
 		65DB732B8BDF7C8BF5D11899C70CA7AB /* Pods-PlistManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PlistManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		6BE06D1E365DA1C1F7F345B386E068A1 /* AnyCodable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AnyCodable.framework; path = "AnyCodable-FlightSchool.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BE06D1E365DA1C1F7F345B386E068A1 /* AnyCodable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AnyCodable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		82D18B72C2669E4F327B3CF781A0B72F /* PlistManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PlistManager.modulemap; sourceTree = "<group>"; };
-		8385025221DACC2D0A6EA494A9C485BF /* PlistManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PlistManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		8827C8549A66A0F9968F8E5C65FBF29D /* Pods_PlistManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PlistManager_Tests.framework; path = "Pods-PlistManager_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8C43FA0B4C700BA69EA2C1D867CD3C76 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = PlistManager/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		989C26B7B8535A899F4A4FEB89F44E97 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8385025221DACC2D0A6EA494A9C485BF /* PlistManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = PlistManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8827C8549A66A0F9968F8E5C65FBF29D /* Pods_PlistManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlistManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C43FA0B4C700BA69EA2C1D867CD3C76 /* PlistManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PlistManager.swift; path = PlistManager/Classes/PlistManager.swift; sourceTree = "<group>"; };
+		989C26B7B8535A899F4A4FEB89F44E97 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DC2C5049D036C2854D6E312F700343B /* PlistManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PlistManager-Info.plist"; sourceTree = "<group>"; };
 		9EECF03E0DE3B6E424BBBFB1207FB83F /* PlistManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PlistManager.release.xcconfig; sourceTree = "<group>"; };
 		9F2E08B290381EA04932A724FEE95FD9 /* AnyCodable-FlightSchool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AnyCodable-FlightSchool-dummy.m"; sourceTree = "<group>"; };
@@ -116,7 +116,7 @@
 		2C9EFEB49FE364B148115E139F24FF22 /* PlistManager */ = {
 			isa = PBXGroup;
 			children = (
-				8C43FA0B4C700BA69EA2C1D867CD3C76 /* ReplaceMe.swift */,
+				8C43FA0B4C700BA69EA2C1D867CD3C76 /* PlistManager.swift */,
 				8DCEDF8324A636CBE82E268C1DF6A81E /* Pod */,
 				B8A7425C317F0319F643A1DFC99E932A /* Support Files */,
 			);
@@ -205,7 +205,6 @@
 				BA427AFAA67FC6FAA2A0748193FA0A90 /* AnyEncodable.swift */,
 				3FFA5C1D97B45FBDE3758008AFFD77E3 /* Support Files */,
 			);
-			name = "AnyCodable-FlightSchool";
 			path = "AnyCodable-FlightSchool";
 			sourceTree = "<group>";
 		};
@@ -392,7 +391,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD8F2EED8826964DE266039EB57E4478 /* PlistManager-dummy.m in Sources */,
-				2479569745087AA1D5D37DD35DDBA4D5 /* ReplaceMe.swift in Sources */,
+				2479569745087AA1D5D37DD35DDBA4D5 /* PlistManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -649,8 +648,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
