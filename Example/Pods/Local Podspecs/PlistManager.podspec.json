@@ -1,0 +1,23 @@
+{
+  "name": "PlistManager",
+  "version": "0.1.0",
+  "summary": "A short description of PlistManager.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Janak Shah/PlistManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Janak Shah": "janak.shah@cuvva.com"
+  },
+  "source": {
+    "git": "https://github.com/janakmshah/PlistManager.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "PlistManager/Classes/**/*",
+  "frameworks": "Foundation"
+}

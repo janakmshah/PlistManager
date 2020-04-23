@@ -2,14 +2,11 @@
 # Be sure to run `pod lib lint PlistManager.podspec' to ensure this is a
 # valid spec before submitting.
 #
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
-#
 
 Pod::Spec.new do |s|
   s.name             = 'PlistManager'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of PlistManager.'
+  s.summary          = 'Lightweight plist data management framework, leveraging Codable in Swift'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,25 +15,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  Easily CRUD anything that conforms to Codable to locally stored Plist files, leveraging the latest native Swift features.
                        DESC
-
-  s.homepage         = 'https://github.com/Janak Shah/PlistManager'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/janakmshah/PlistManager'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Janak Shah' => 'janak.shah@cuvva.com' }
-  s.source           = { :git => 'https://github.com/Janak Shah/PlistManager.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  s.source           = { :git => 'https://github.com/janakmshah/PlistManager.git', :tag => s.version.to_s }
   s.ios.deployment_target = '8.0'
-
   s.source_files = 'PlistManager/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'PlistManager' => ['PlistManager/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'Foundation'
+  s.swift_version = '5.0'
 end

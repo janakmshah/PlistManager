@@ -1,0 +1,6 @@
+framework module PlistManager {
+  umbrella header "PlistManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

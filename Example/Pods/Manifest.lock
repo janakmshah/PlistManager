@@ -1,0 +1,23 @@
+PODS:
+  - AnyCodable-FlightSchool (0.2.3)
+  - PlistManager (0.1.0)
+
+DEPENDENCIES:
+  - AnyCodable-FlightSchool
+  - PlistManager (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AnyCodable-FlightSchool
+
+EXTERNAL SOURCES:
+  PlistManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AnyCodable-FlightSchool: cf53737f4bd1d9187cea453679734506e478fff3
+  PlistManager: 7259e9c98b813fccf90a7421e946d9b0aad9181d
+
+PODFILE CHECKSUM: ebaa6d9fca70707f1a0e224cce6ce00ca4407cf6
+
+COCOAPODS: 1.9.1
