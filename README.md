@@ -1,6 +1,6 @@
 # PlistManager
 
-[![CI Status](https://img.shields.io/travis/Janak Shah/PlistManager.svg?style=flat)](https://travis-ci.org/Janak Shah/PlistManager)
+[![CI Status](https://img.shields.io/travis/Janak Shah/PlistManager.svg?style=flat)](https://travis-ci.org/janakmshah/PlistManager)
 [![Version](https://img.shields.io/cocoapods/v/PlistManager.svg?style=flat)](https://cocoapods.org/pods/PlistManager)
 [![License](https://img.shields.io/cocoapods/l/PlistManager.svg?style=flat)](https://cocoapods.org/pods/PlistManager)
 [![Platform](https://img.shields.io/cocoapods/p/PlistManager.svg?style=flat)](https://cocoapods.org/pods/PlistManager)
