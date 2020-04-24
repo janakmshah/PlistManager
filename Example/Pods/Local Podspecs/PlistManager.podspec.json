@@ -1,9 +1,9 @@
 {
   "name": "PlistManager",
-  "version": "0.1.0",
-  "summary": "A short description of PlistManager.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Janak Shah/PlistManager",
+  "version": "0.1.2",
+  "summary": "Lightweight plist data management framework, leveraging Codable in Swift",
+  "description": "Easily CRUD anything that conforms to Codable to locally stored Plist files, leveraging the latest native Swift features.",
+  "homepage": "https://github.com/janakmshah/PlistManager",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -13,11 +13,18 @@
   },
   "source": {
     "git": "https://github.com/janakmshah/PlistManager.git",
-    "tag": "0.1.0"
+    "tag": "0.1.2"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
   "source_files": "PlistManager/Classes/**/*",
-  "frameworks": "Foundation"
+  "frameworks": "Foundation",
+  "swift_versions": "5.0",
+  "dependencies": {
+    "AnyCodable": [
+      "~> 1.2.0"
+    ]
+  },
+  "swift_version": "5.0"
 }

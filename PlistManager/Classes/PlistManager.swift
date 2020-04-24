@@ -1,3 +1,5 @@
+import AnyCodable
+
 public class PlistManager {
     
     private static let documentsDirectory: URL = {

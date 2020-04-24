@@ -1,6 +1,6 @@
 use_frameworks!
 target 'PlistManager_Tests' do
-  pod 'AnyCodable-FlightSchool'
+  pod 'AnyCodable', '~> 1.2.0'
   pod 'PlistManager', :path => '../'
   
   
