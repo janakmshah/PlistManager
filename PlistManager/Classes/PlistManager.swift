@@ -28,14 +28,14 @@ public class PlistManager {
         }
     }
     
-    public static func getObject(_ key: String, from plistName: PlistName, handleError: ((Error?) -> Void)? = nil) -> AnyCodable? {
+    public static func getObject(_ key: String, from plistName: PlistName, handleError: ((Error?) -> Void)? = nil) -> Codable? {
         let path = plistPath(plistName)
         switch getPlistContents(for: path) {
         case .failure(let error):
             handleError?(error)
             return nil
         case .success(let plistContents):
-            if let object = plistContents[key] {
+            if let object = plistContents[key]?.value as? Codable {
                 handleError?(nil)
                 return object
             } else {
@@ -64,13 +64,13 @@ public class PlistManager {
         }
     }
     
-    public static func saveValue(_ value: AnyCodable, key: String, from plistName: PlistName, handleError: ((Error?) -> Void)? = nil) {
+    public static func saveValue(_ value: Codable, key: String, from plistName: PlistName, handleError: ((Error?) -> Void)? = nil) {
         let path = plistPath(plistName)
         switch getPlistContents(for: path) {
         case .failure(let error):
             handleError?(error)
         case .success(var plistContents):
-            plistContents[key] = value
+            plistContents[key] = AnyCodable(value)
             let encoder = PropertyListEncoder()
             encoder.outputFormat = .xml
             do {
