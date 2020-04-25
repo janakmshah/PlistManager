@@ -1,24 +1,16 @@
 PODS:
-  - AnyCodable (1.2.0)
-  - PlistManager (0.1.2):
-    - AnyCodable (~> 1.2.0)
+  - PlistManager (1.1.0)
 
 DEPENDENCIES:
-  - AnyCodable (~> 1.2.0)
   - PlistManager (from `../`)
-
-SPEC REPOS:
-  trunk:
-    - AnyCodable
 
 EXTERNAL SOURCES:
   PlistManager:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AnyCodable: bb05e19c676899e0fd511652f2d83bfa044e2503
-  PlistManager: 866d8fe47649ac06fdfe47dd7b57428e090f5dd3
+  PlistManager: e2884ef68f523a712ada4af4cc2e6203460a2be1
 
-PODFILE CHECKSUM: fe65f8d78f76354dfb49194b8315c451f9e7de8a
+PODFILE CHECKSUM: 32195b20a126560eb417129da081c2aae3a29a84
 
 COCOAPODS: 1.9.1

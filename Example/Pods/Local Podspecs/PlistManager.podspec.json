@@ -1,6 +1,6 @@
 {
   "name": "PlistManager",
-  "version": "0.1.2",
+  "version": "1.1.0",
   "summary": "Lightweight plist data management framework, leveraging Codable in Swift",
   "description": "Easily CRUD anything that conforms to Codable to locally stored Plist files, leveraging the latest native Swift features.",
   "homepage": "https://github.com/janakmshah/PlistManager",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/janakmshah/PlistManager.git",
-    "tag": "0.1.2"
+    "tag": "1.1.0"
   },
   "platforms": {
     "ios": "9.0"
@@ -21,10 +21,5 @@
   "source_files": "PlistManager/Classes/**/*",
   "frameworks": "Foundation",
   "swift_versions": "5.0",
-  "dependencies": {
-    "AnyCodable": [
-      "~> 1.2.0"
-    ]
-  },
   "swift_version": "5.0"
 }

@@ -5,7 +5,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PlistManager'
-  s.version          = '1.0.0'
+  s.version          = '1.1.0'
   s.summary          = 'Lightweight plist data management framework, leveraging Codable in Swift'
 
 # This description is used to generate tags and improve search results.
@@ -25,5 +25,4 @@ Pod::Spec.new do |s|
   s.source_files = 'PlistManager/Classes/**/*'
   s.frameworks = 'Foundation'
   s.swift_version = '5.0'
-  s.dependency 'AnyCodable', '~> 1.2.0'
 end
